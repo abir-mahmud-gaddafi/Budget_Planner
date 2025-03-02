@@ -200,9 +200,6 @@ void MainWindow::setupUI()
     connect(setBudgetGoalButton, &QPushButton::clicked, this, &MainWindow::onSetBudgetGoalClicked);
 }
 
-// Rest of the code remains the same...
-
-
 void MainWindow::setupStatusBar()
 {
     statusBar = new QStatusBar(this);
